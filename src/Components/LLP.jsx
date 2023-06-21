@@ -41,7 +41,7 @@ const LLP = () => {
         </div>
         <div className='theblueone'>
           <h4>Relief</h4>
-          <input type="text"  onChange={(e)=>setLlpRelief(e.target.value)} />
+          <input type="text" onChange={(e)=>setLlpRelief(e.target.value)} />
         </div>
         <div className='theWhiteOne'>
           <h4>TDS/TCS/MAT (AMT) Credit Utilized</h4>
