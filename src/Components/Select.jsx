@@ -9,7 +9,7 @@ const Select = () => {
 
     return (
         <div>
-            <form action="#" >
+            <form action="#"  >
                 <div className='theWhiteOne'>
                     <h4 >Net Taxable Income</h4>
                     <input type="text" />

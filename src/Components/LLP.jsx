@@ -49,7 +49,7 @@ const LLP = () => {
         </div>
         <div className='theblueone'>
           <h4>Assessed Tax</h4>
-          <input type="text"  value={llpAssessedTax} />
+          <input type="text"   value={llpAssessedTax} />
         </div>
         <div>
           <button id='calculateBTNHRA' onClick={handleLlpSubmit}>Calculate</button>
