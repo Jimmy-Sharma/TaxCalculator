@@ -1,0 +1,11 @@
+#topPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(203, 203, 255);
+    line-height: 52px;
+    padding: 5px 20px;
+    width: 76.4%;
+    margin: auto;
+    border: 1px solid;
+}

@@ -1,0 +1,34 @@
+#makeaBlue{
+    height: 30px;
+    background-color: blue;
+}
+#brandLogo img{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+#makeSpaceBetween{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    width: 100%;
+    border-bottom: 5px solid rgb(189, 189, 213);
+}
+#buttonToRoute{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttonToRoute button{
+    background-color: rgb(223, 223, 244);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 70px;
+}
+#buttonToRoute button:hover{
+    background-color: rgb(95, 95, 97);
+    color: rgb(255, 255, 255);
+}

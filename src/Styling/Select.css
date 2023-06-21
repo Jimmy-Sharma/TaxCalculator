@@ -1,0 +1,82 @@
+form {
+    width: 80%;
+    margin: auto;
+}
+
+.theWhiteOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    line-height: 52px;
+    padding: 5px 20px;
+    border: 1px solid;
+}
+
+.theWhiteOne input {
+    height: 20px;
+    background-color: rgb(203, 203, 255);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.theblueone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(203, 203, 255);
+    line-height: 52px;
+    padding: 5px 20px;
+    border: 1px solid;
+}
+
+.theblueone input {
+    height: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+select {
+    width: 20%;
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.withTwoInputsb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(203, 203, 255);
+    line-height: 52px;
+    padding: 5px 20px;
+    border: 1px solid;
+}
+.withTwoInputsb input {
+    height: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.withTwoInputsw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    line-height: 52px;
+    padding: 5px 20px;
+    border: 1px solid;
+}
+.withTwoInputsw input {
+    height: 20px;
+    background-color: rgb(203, 203, 255);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#formHRA{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    /* background-color: white; */
+}
+#heading{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(182, 182, 200);
+    line-height: 30px;
+    padding: 7px 15px;
+    justify-content: center;
+    color: white;
+}
+#headLine{
+    width: 80%;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    padding: 7px;
+}
+#heading img{
+    width: 20px;
+}
+.smallDivb {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 52px;
+    background-color: lightblue;
+    border: 1px solid grey;
+    padding: 5px 20px;
+}
+
+.smallDivb p {
+    font-size: 20px;
+}
+
+.smallDivb input {
+    height: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.smallDivw {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 52px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px 20px;
+}
+
+.smallDivw p {
+    font-size: 20px;
+}
+
+.smallDivw input {
+    height: 20px;
+    background-color: rgb(182, 228, 244);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.smallDiv0 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 52px;
+    background-color: grey;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 20px;
+}
+
+.smallDiv0 p {
+    font-size: 20px;
+}
+
+.smallDiv0 input {
+    height: 20px;
+    cursor: not-allowed;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+
+#tickBoxDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tickBoxDiv input {
+    cursor: pointer;
+}
+
+#bottomBTNdiv{
+    display: flex;
+    width: 15%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#calculateBTNHRA {
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: 0px solid;
+    border-radius: 10px;
+}
+#calculateBTNHRA:hover{
+    height: 40px;
+    width: 90px;
+}
+
+#resetBTNHRA {
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: 0px solid;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#resetBTNHRA:hover{
+    height: 40px;
+    width: 90px;
+}
